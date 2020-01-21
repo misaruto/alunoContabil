@@ -58,6 +58,12 @@ class Render
 			include DIREQ."app/View/".$this->getDir()."head.php";	
 		}
 	}
+	public function addHeader()
+	{
+		if (file_exists(DIREQ."app/View/".$this->getDir()."header.php")) {
+			include DIREQ."app/View/".$this->getDir()."header.php";	
+		}
+	}
 	#metodo adciona caracteristicas especificas no main
 	public function addMain()
 	{

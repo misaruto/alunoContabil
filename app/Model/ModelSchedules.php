@@ -78,7 +78,18 @@ class ModelSchedules
 	public function setDesc($desc){
 		$this->desc = $desc;
 	}
+	//essa função copia tudo que vem da tabela no banco de dados e tranforma em um objeto dessa classe
+	public function copy($schedule)
+	{
+		$this->id = $schedule->id;
+		$this->idUser = $schedule->idUser;
+		$this->id = $schedule->id;
+		$this->id = $schedule->id;
+		$this->id = $schedule->id;
+		$this->id = $schedule->id;
+		$this->id = $schedule->id;
+		$this->id = $schedule->id;
+	}
 }
-
 
 ?>

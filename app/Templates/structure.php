@@ -16,8 +16,14 @@
 	<?=$this->addHead()?>
 </head>
 <body class="bodyLogin" style="background-size: cover;background-image: url(<?=DIRIMG?>background.jpg);">
+	<div>
+		<?=$this->addHeader()?>
+	</div>
 	<div class="body">
 		<?=$this->addMain()?>
+	</div>
+	<div>
+		<?$this->addFooter()?>
 	</div>
 </body>
 <!--Script do reCATPTCHA da google-->
